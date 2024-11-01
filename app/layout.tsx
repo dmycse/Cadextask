@@ -5,9 +5,10 @@ import { Inter } from "next/font/google";
 
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
 import { ThemeProvider } from '@mui/material/styles';
-import theme from './theme';
+import theme from './styles/theme';
 import CssBaseline from '@mui/material/CssBaseline';
 import Container from '@mui/material/Container';
+import { Header } from "./components";
 
 
 const inter = Inter({ 
@@ -31,6 +32,7 @@ export default function RootLayout(
           <ThemeProvider theme={theme}>
             <CssBaseline />
             <Container maxWidth='lg' sx={{ height: '100vh', display: 'flex', flexDirection: 'column' }}>
+              <Header />
               {children}
             </Container>
           </ThemeProvider>
