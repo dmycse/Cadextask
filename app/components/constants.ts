@@ -6,7 +6,8 @@ export enum APP_ROUTES {
 export enum SECTION_TITLES {
   HERO = 'Most important title on the page',
   ALSO_IMPORTANT = 'Also very important title',
-  LESS_IMPORTANT = 'Less important title'
+  LESS_IMPORTANT = 'Less important title',
+  CONTACT_US = 'Only CTA on the page'
 };
 
 export enum YOUTUBE {
