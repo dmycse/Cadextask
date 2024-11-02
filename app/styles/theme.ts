@@ -9,7 +9,7 @@ const theme = createTheme({
       styleOverrides: `
       html, body {
         maxWidth: 100vw;
-        height: 100vh;
+        height: 100%;
         overflow-x: hidden;
       }
 
@@ -22,7 +22,7 @@ const theme = createTheme({
   palette: {
     primary: {
       main: grey[900],
-      light: blueGrey[100],
+      light: blueGrey[50],
       dark: blueGrey[400],
     },
     secondary: {
@@ -30,9 +30,6 @@ const theme = createTheme({
     },
   },
   
-  typography: {
-    fontFamily: 'var(--font-inter)',
-  }
 });
 
 export default theme;
