@@ -1,17 +1,16 @@
 export const linkStyles = {
   link: {
-    fontFamily: 'var(--font-inter)',
-    fontSize: '1.25rem',
+    fontFamily: 'var(--font-tinos)',
+    fontSize: '1.5rem',
     fontWeight: '700',
     color: 'primary.main',
   },
 
   button: {
-    fontFamily: 'var(--font-inter)',
+    fontFamily: 'var(--font-tinos)',
     fontSize: '1rem',
     fontWeight: '300',
-    textTransform: 'capitalize',
+    textTransform: 'none',
     color: 'secondary.main',
-    
   },
 };
