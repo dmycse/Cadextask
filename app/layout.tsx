@@ -32,7 +32,7 @@ export default function RootLayout(
         <AppRouterCacheProvider options={{ enableCssLayer: true }}>
           <ThemeProvider theme={theme}>
             <CssBaseline />
-            <Stack sx={{minHeight: '100%', position: 'relative'}}>
+            <Stack sx={{minHeight: '100dvh', position: 'relative'}}>
               <Header />
               {children}
               <Footer />
