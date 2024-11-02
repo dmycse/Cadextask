@@ -14,10 +14,8 @@ export let CustomButton = ({
   }: CustomButtonProps) => {
 
   return (
-    <Box>
-      <Button variant='contained' sx={type === 'button' ? buttonStyles.button : buttonStyles.submit}>
-        {children}
-      </Button>
-    </Box>
+    <Button variant='contained' type={type} sx={type === 'button' ? buttonStyles.button : buttonStyles.submit}>
+      {children}
+    </Button>
   );
 };

@@ -19,7 +19,9 @@ export let Header = () => {
               Some Company
             </CustomLink>
           </Box>
-          <ContactUsButton />
+          <Box sx={headerStyles.btn}>
+            <ContactUsButton />
+          </Box>
         </Stack>
       </Wrapper>
       </Box>

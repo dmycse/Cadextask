@@ -1,6 +1,6 @@
 export const footerStyles = {
   footer: {
-    width: '100%',
+    width: '100dvw',
 
     position: 'sticky', 
     bottom: 0, 

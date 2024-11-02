@@ -1,6 +1,6 @@
 export const headerStyles = {
   header: {
-    width: '100%',
+    width: '100dvw',
     
     position: 'fixed', 
     top: 0,
@@ -18,5 +18,12 @@ export const headerStyles = {
     border: '1px solid lightgrey',
     borderTop: 'none',
     backgroundColor: 'white',
+  },
+
+  btn: {
+    '@media (max-width: 425px)' : {
+      display: 'none',
+    }
   }
+
 };

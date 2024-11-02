@@ -9,7 +9,9 @@ export const buttonStyles = {
   get submit() {
     return ({
       ...this.button,
-      padding: '10px 60px',
+      mt: 2, 
+      padding: '5px 60px',
+      width: '100%',
     });
   }
 };
