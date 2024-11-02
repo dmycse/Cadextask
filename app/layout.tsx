@@ -1,21 +1,22 @@
 import { ReactNode } from "react";
 
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Tinos } from "next/font/google";
 
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
 import { ThemeProvider } from '@mui/material/styles';
 import theme from './styles/theme';
 import CssBaseline from '@mui/material/CssBaseline';
 import Container from '@mui/material/Container';
-import { Header } from "./components";
+import { Header, Footer } from "@/app/components";
+import { Stack } from "@mui/material";
 
 
-const inter = Inter({ 
+const tinos = Tinos({ 
   subsets: ['latin'],
   display: 'swap',
-  weight: ['300', '400', '500', '700'],
-  variable: '--font-inter',
+  weight: ['400', '700'],
+  variable: '--font-tinos',
  });
 
 export const metadata: Metadata = {
@@ -27,14 +28,15 @@ export default function RootLayout(
   { children }: Readonly<{children: ReactNode}>) {
   return (
     <html lang="en">
-      <body className={inter.variable}>
+      <body className={tinos.variable}>
         <AppRouterCacheProvider options={{ enableCssLayer: true }}>
           <ThemeProvider theme={theme}>
             <CssBaseline />
-            <Container maxWidth='lg' sx={{ height: '100vh', display: 'flex', flexDirection: 'column' }}>
+            <Stack sx={{minHeight: '100%', position: 'relative'}}>
               <Header />
               {children}
-            </Container>
+              <Footer />
+            </Stack>
           </ThemeProvider>
         </AppRouterCacheProvider>
         </body>
