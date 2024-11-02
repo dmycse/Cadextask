@@ -1,26 +1,22 @@
 export const headerStyles = {
   header: {
-    padding: '30px 20px',
+    width: '100%',
     
-    position: 'sticky', 
-    top: 0, 
-    left: 0, 
+    position: 'fixed', 
+    top: 0,
+    left: 0,
+    right: 0, 
     zIndex: 10,
+  },
+
+  content: {
+    padding: '20px 20px',
   
-    backgroundColor: 'red',
-  },
+    justifyContent: 'space-between',
+    alignItems: 'center',
 
-  homeLink: {
-    fontFamily: 'var(--font-inter)',
-    fontSize: '1.25rem',
-    fontWeight: '700',
-    color: 'primary.main',
-  },
-
-  contactUsLink: {
-    fontFamily: 'var(--font-inter)',
-    fontSize: '1rem',
-    fontWeight: '300',
-    color: 'secondary.main',
-  },
+    border: '1px solid lightgrey',
+    borderTop: 'none',
+    backgroundColor: 'white',
+  }
 };
