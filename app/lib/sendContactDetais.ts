@@ -4,7 +4,7 @@ type ContactProps = {
   message: string;
 };
 
-let url = "http://localhost:3000/api/contact-us";
+let url = `${process.env.NEXT_PUBLIC_APP_URL}/api/contact-us`;
 
 export const sentContactDetails = async (data: ContactProps) => {
   return await fetch(url, {
