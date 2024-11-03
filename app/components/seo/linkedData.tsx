@@ -14,6 +14,7 @@ export const homeSchema: WithContext<WebSite> = {
 const HomeJsonLd = () =>{
  return (
     <Script
+      id="home.id"
       type="application/ld+json"
       dangerouslySetInnerHTML={{
         __html: JSON.stringify(homeSchema),
@@ -41,10 +42,11 @@ export const contactUsSchema: WithContext<WebSite> = {
 const ContactUsJsonLd = () =>{
   return (
      <Script
-       type="application/ld+json"
-       dangerouslySetInnerHTML={{
-         __html: JSON.stringify(contactUsSchema),
-       }}
+      id="contact.id"
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify(contactUsSchema),
+      }}
    />
   )
  };
