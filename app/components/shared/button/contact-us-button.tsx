@@ -1,5 +1,5 @@
 import { CustomButton, CustomLink } from "@/app/components";
-import { APP_ROUTES } from "../../constants";
+import { APP_ROUTES } from "@/app/components/constants";
 
 export const ContactUsButton = () => {
   return (
