@@ -7,16 +7,16 @@ const theme = createTheme({
   components: {
     MuiCssBaseline: {
       styleOverrides: `
-      html, body {
-        maxWidth: 100vw;
-        height: 100%;
-        overflow-x: hidden;
-      }
+        html, body {
+          maxWidth: 100vw;
+          height: 100%;
+          overflow-x: hidden;
+        }
 
-      a {
-        text-decoration: none;
-      }
-    `
+        a {
+          text-decoration: none;
+        }
+      `
     }
   },
   palette: {

@@ -42,4 +42,10 @@ export const formStyles = {
       },
     },
 
+    error: {
+      fontSize: '14px',
+      fontWeight: '700',
+      textAlign: 'center',
+      color: 'red',
+    },
 };
