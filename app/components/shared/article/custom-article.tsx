@@ -1,6 +1,6 @@
 import Grid from '@mui/material/Grid2';
 import { Typography } from '@mui/material';
-import { CustomTitle } from '../title/custom-title'
+import { CustomTitle } from '@/app/components'
 
 export const CustomArticle = () => {
   return (
