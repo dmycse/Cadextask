@@ -8,6 +8,10 @@ export { CustomLink } from './shared/link/custom-link';
 export { CustomTitle } from './shared/title/custom-title';
 export { CustomArticle } from './shared/article/custom-article';
 
+export { ContactUsForm } from './shared/form/contact-us-form';
+
 export { HeroSection } from './layout/heroSection/heroSection';
 export { ArticlesSection } from './layout/articlesSection/articlesSection';
 export { LessImportantSection } from './layout/lessImportantSection/lessImportantSection';
+
+export { HomeJsonLd, ContactUsJsonLd } from './seo/linkedData';
