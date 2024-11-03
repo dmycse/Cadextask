@@ -1,7 +1,9 @@
 import { Metadata } from "next";
 
+let domainUrl = process.env.NEXT_PUBLIC_APP_URL as string;
+
 export const rootMetadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL!),
+  metadataBase: new URL(domainUrl),
   title: {
     absolute: "Great Website | Some Company",
     default: "Some Company",
@@ -13,7 +15,7 @@ export const rootMetadata: Metadata = {
     title: "Great Website | Some Company",
     description: "Some Company's Great Website",
     locale: "en_US",
-    url: process.env.NEXT_PUBLIC_APP_URL,
+    url: domainUrl,
     siteName: "Some Company",
     images: [
       {
