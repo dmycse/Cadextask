@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 export const rootMetadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL as string),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL!),
   title: {
     absolute: "Great Website | Some Company",
     default: "Some Company",
@@ -29,8 +29,6 @@ export const rootMetadata: Metadata = {
     site: "@somecompany",
     description: "Some Company's Great Website",
   },
-  referrer: 'origin-when-cross-origin',
-  manifest: 'https://nextjs.org/manifest.json',
   robots: {
     index: false,
     follow: true,

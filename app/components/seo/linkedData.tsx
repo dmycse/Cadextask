@@ -1,5 +1,5 @@
-import { WithContext, Organization, WebSite } from "schema-dts";
 import Script from "next/script";
+import { WithContext, WebSite } from "schema-dts";
 
 
 export const homeSchema: WithContext<WebSite> = {
