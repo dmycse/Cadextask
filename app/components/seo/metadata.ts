@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 
-let domainUrl = `${process.env.NEXT_PUBLIC_APP_URL}/`;
+let domainUrl = `${process.env.NEXT_PUBLIC_APP_URL}`;
 
 export const rootMetadata: Metadata = {
   metadataBase: new URL(domainUrl),
