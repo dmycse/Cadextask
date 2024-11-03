@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
 
-## Getting Started
+  <h3 align="center">Cadex Task Implementation</h3>
 
-First, run the development server:
+   <div align="center">
+     This Authentication App buld on <a href="https://authjs.dev/" target="_blank"><b>AuthJS v.5</b> </a>and <a href="https://nextjs.org/" target="_blank"><b>NextJS v.14</b></a>
+    </div>
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### <a name="table">Content</a>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [App Features](#features)
+- [Project setup](#setup)
+- [Tech Details](#details)
+- [Tech Stack](#tech-stack)
+- [Web-link](#web-link)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### <a name="features">App Features</a>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+* **Website is responsive**
+* **Website has a sticky header and footer**
+* **At the main page has been embedded youtube video**
+* **'Contact us' button has a link to 'Contact Us' page**
+* **All fields of the contact form are rrequired and have validation**
+* **Handling API requests**
+* **Implement meta tags for social media preview of the page**
 
-## Learn More
+### <a name="features">Project setup</a>
+1. Clone the repository: <code>git clone https://github.com/dmycse/Cadextask.git</code>
+2. Navigate into local folder of the repository
+3. Install dependencies. Run <code>npm install</code>
+4. Running the project in developing mode: <code>npm run dev</code>
 
-To learn more about Next.js, take a look at the following resources:
+### <a name="details">Tech Detailsg</a>
+* **Styling based on**: MaterialUi and CSS-in-JS inside MaterialUI components
+* **SEO**: Next.js is designed with search engine optimization (SEO) in mind. Some customization has been made including meta tags, jsonLd (based on schema-dts) and semantic html-tags.
+* **Performance**: By utilizing server-side rendering, Next.js minimizes the time it takes for a webpage to load. Additionally, Next.js incorporates automatic code splitting, enabling the website to only load the necessary JavaScript for each page, further optimizing performance.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### <a name="tech-stack">Tech Stack</a>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+* **[NextJS](https://nextjs.org/)**: Frontend and Bacend. Server-side rendering, Server components, Static Routing
+* **TypeScript**
+* **[MaterialUI](https://mui.com/)**: React component library that implements Google's Material Design
+* **[React Hook Form](https://react-hook-form.com/)**: Form construction
+* **[Zod](https://zod.dev/)**: Form validation
+* **[React-Player](https://www.npmjs.com/package/react-player)**: A React component for playing a variety of URLs, including YouTube
+* **[Shema-Dts](https://www.npmjs.com/package/schema-dts)**: JSON-LD TypeScript types for Schema.org vocabulary
+* **[Git](https://git-scm.com/)**: Version Control
+* **[Node.js](https://nodejs.org/en)**: JavaScript runtime
+* **[Npm](https://www.npmjs.com/)**: Package manager
 
-## Deploy on Vercel
+* **[Verdel](https://vercel.com/)**: Hosting
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### <a name="web-link">Web-link</a>
+This repository contains the code corresponding to an in-depth app available on web-link: <a href="https://authappnext-two.vercel.app/" target="_blank"><b>CadexTask</b></a>. 
