@@ -2,7 +2,7 @@
 
 import {useState, useEffect} from "react";
 import ReactPlayer from 'react-player/youtube'
-import { YOUTUBE } from "../../constants";
+import { YOUTUBE } from "@/app/components/constants";
 
 export default function VideoPlayer() {
 

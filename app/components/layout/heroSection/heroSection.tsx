@@ -12,7 +12,6 @@ export let HeroSection = () => {
       <Stack
         component='section'
         direction='row'
-        // spacing={4}
         sx={heroStyles.section}
       >
         <Stack spacing={4} sx={heroStyles.content}>
