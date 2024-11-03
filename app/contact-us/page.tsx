@@ -11,7 +11,6 @@ export const metadata: Metadata = contacUsMetadata;
 export default function ContacUs() {
   return (
     <>
-      <ContactUsJsonLd />
       <Stack component='main' sx={contactUsStyles.main}>
         <Wrapper>
           <Stack component='section' sx={contactUsStyles.section}>
@@ -22,6 +21,7 @@ export default function ContacUs() {
           </Stack>
         </Wrapper>
       </Stack>
+      <ContactUsJsonLd />
     </>
   );
 }
