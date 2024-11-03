@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 
-let domainUrl = `${process.env.NEXT_PUBLIC_APP_URL}`;
+let domainUrl = "https://cadextask.vercel.app";
 
 export const rootMetadata: Metadata = {
   metadataBase: new URL(domainUrl),
