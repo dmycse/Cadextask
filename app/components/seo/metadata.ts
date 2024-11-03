@@ -29,7 +29,21 @@ export const rootMetadata: Metadata = {
     site: "@somecompany",
     description: "Some Company's Great Website",
   },
-  
+  referrer: 'origin-when-cross-origin',
+  manifest: 'https://nextjs.org/manifest.json',
+  robots: {
+    index: false,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: false,
+      noimageindex: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 };
 
 export const contacUsMetadata: Metadata = {
