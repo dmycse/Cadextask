@@ -3,7 +3,7 @@
   <h3 align="center">Cadex Task Implementation</h3>
 
    <div align="center">
-     This Website App buld on <a href="https://nextjs.org/" target="_blank"><b>NextJS v.14.2</b> </a>and <a href="https://mui.com/" target="_blank"><b>MaterialUI v.6</b></a>
+     This Website buld on <a href="https://nextjs.org/" target="_blank"><b>NextJS v.14.2</b> </a>using <a href="https://mui.com/" target="_blank"><b>MaterialUI v.6</b></a>
     </div>
 </div>
 
@@ -49,8 +49,8 @@
 * **[Node.js](https://nodejs.org/en)**: JavaScript runtime
 * **[Npm](https://www.npmjs.com/)**: Package manager
 
-* **[Verdel](https://vercel.com/)**: Hosting
+* **[Versel](https://vercel.com/)**: Hosting
 
 
 ### <a name="web-link">Web-link</a>
-This repository contains the code corresponding to an in-depth app available on web-link: <a href="https://authappnext-two.vercel.app/" target="_blank"><b>CadexTask</b></a>. 
+This repository contains the code corresponding to an in-depth app available on web-link: <a href="" target="_blank"><b>CadexTask</b></a>. 
