@@ -31,7 +31,7 @@
 3. Install dependencies. Run <code>npm install</code>
 4. Running the project in developing mode: <code>npm run dev</code>
 
-### <a name="details">Tech Detailsg</a>
+### <a name="details">Tech Details</a>
 * **Styling based on**: MaterialUi and CSS-in-JS inside MaterialUI components
 * **SEO**: Next.js is designed with search engine optimization (SEO) in mind. Some customization has been made including meta tags, jsonLd (based on schema-dts) and semantic html-tags.
 * **Performance**: By utilizing server-side rendering, Next.js minimizes the time it takes for a webpage to load. Additionally, Next.js incorporates automatic code splitting, enabling the website to only load the necessary JavaScript for each page, further optimizing performance.
@@ -44,12 +44,12 @@
 * **[React Hook Form](https://react-hook-form.com/)**: Form construction
 * **[Zod](https://zod.dev/)**: Form validation
 * **[React-Player](https://www.npmjs.com/package/react-player)**: A React component for playing a variety of URLs, including YouTube
-* **[Shema-Dts](https://www.npmjs.com/package/schema-dts)**: JSON-LD TypeScript types for Schema.org vocabulary
+* **[Schema-Dts](https://www.npmjs.com/package/schema-dts)**: JSON-LD TypeScript types for Schema.org vocabulary
 * **[Git](https://git-scm.com/)**: Version Control
 * **[Node.js](https://nodejs.org/en)**: JavaScript runtime
 * **[Npm](https://www.npmjs.com/)**: Package manager
 
-* **[Versel](https://vercel.com/)**: Hosting
+* **[Vercel](https://vercel.com/)**: Hosting
 
 
 ### <a name="web-link">Web-link</a>
